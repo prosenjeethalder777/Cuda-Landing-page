@@ -1,0 +1,287 @@
+/* global css */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.p2{
+    margin-bottom: 50px;
+}
+.logo-part{
+    padding: 30px 0px;
+}
+section{
+    text-align: center;
+    padding: 75px 0;
+}
+.menu-part{
+margin: 30px 0px;
+text-align: end;
+}  
+.menu-part li{
+    padding: 7px 10px;
+    font-size: 20px;
+    line-height: 20px;
+    display: inline-block;
+}   
+.menu-part li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:5px 10px;
+}
+.menu-part li a:hover{
+    background-color: rgba(0, 0, 0, 0.318);
+    border-radius: 5px;
+}
+/* layout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: #87509c;
+    color: #fff;
+}
+.hero-part{
+margin: 95px auto;
+text-align: center;
+}
+header .button{
+    margin-bottom: 85px;
+}
+.button{
+text-align: center;
+margin:20px auto;
+}
+.btn{
+padding: 15px;
+background-color:#eb7d4b;
+color: white;
+text-transform: uppercase;
+width: 250px;
+font-size: 16px;
+border-radius: 3px;
+}
+.portfolio-btn{
+    border-radius: 3px;
+}
+.sms-box{
+    border-radius: 3px;
+}
+.underline{
+    border-top: 5px solid rgba(0, 0, 0, 0.222);
+    width: 5%;
+    margin:10px auto;
+    border-radius: 2px;
+}
+p{
+font-size: 20px;
+line-height: 20px;
+}
+#services{
+    background-color: #17c2a4;
+    color:#fff;
+}
+#services img{
+    height: 150px;
+    margin: 30px;
+}
+.services-2{
+    margin: 20px 0px;
+}
+#team{
+    background-color: #e7f1f8;
+    color: #636d85;
+}
+.ceo {
+    color:#30bae7;
+    margin-bottom: 15px;
+}
+.team-icon{
+margin-top: 28px;
+}
+.team-icon i{
+background-color: #85858b;
+color:rgb(227, 231, 223); 
+padding: 7px;
+width: 30px;
+border-radius: 50px;
+}
+.team-icon i:hover{
+background-color:rgb(9, 9, 9);
+}
+#skill img{
+    margin: 25px 0px;
+}
+#portfolio{
+    background-color:#ffdd99 ;
+}
+#portfolio .container .portfolio-img{
+    text-transform: uppercase;
+}
+#portfolio .img {
+    padding: 25px;
+    margin-top: 50px;
+}
+.link-item li{
+    display: inline-block;
+    background-color: #ebc985;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 70px;
+    margin:0px 3px;
+}
+.link-item li a{
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #3c4761;
+}
+.link-item li:hover{
+    background-color: #e7f1f8;
+}
+.portfolio-btn{
+    background-color: #17c2a4;
+    color: white;
+    padding: 16px;
+    margin-top: 70px;
+    width: 250px;
+    font-size: 16px;
+}
+#about{
+    background-color: #d74680;
+    color: white;
+}
+.about-h2{
+text-align: left;
+}
+.about-p{
+text-align: left;
+color: #f3af91;
+}
+.col-4 p{
+text-align: left;
+}
+.col-2,.col-4{
+    padding: 10px;
+    margin: 27px 0px;
+}
+.col-4 h2{
+    margin-top: 23px;
+}
+#touch{
+    background-color: #3c5499;
+    color: white;
+}
+
+input{
+    width: 95%;
+    height:50px;
+    background-color: #273a71;
+}
+input::placeholder{
+    color:white;
+    
+}
+.form{
+    width: 80%;
+    margin: auto;
+}
+input:focus{
+    background-color: #3c4761;
+    color: white;
+}
+.massage-box{
+    width: 97%;
+    margin-top: 25px;
+    height: 250px;
+    background-color: #273a71;
+
+}
+.massage-box::placeholder{
+    color:white ;
+}
+.massage-box:focus{
+    background-color:#3c4761 ;
+    color:white;
+}
+.sms-box{
+    padding: 16px;
+    width: 250px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-size: 16px;
+    color: white;
+    background-color: #30bae7;
+
+}
+.footer{
+    background-color: #344b8e;
+    text-align: center;
+    height: 110px;
+}
+footer .row .footer li{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(214, 204, 204);
+    padding: 35px 25px;
+}
+footer .row .footer li:hover{
+    color: #3286bd;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%; 
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
